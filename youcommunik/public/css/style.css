@@ -192,6 +192,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 .alignementTitre{
     display: block;
@@ -209,9 +210,19 @@ nav{
 }
 .divSolo{
     justify-content: center;
-    display: flex;
-    margin-left: 20px;
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #eae3d6;
+    margin-top: -70px;
 }
+.pCenter1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: -70px;
+}
+
 .pCenter{
     display: flex;
     justify-content: center;
@@ -220,9 +231,19 @@ nav{
 .alignementTitre>div:first-of-type{
     height: 180px;
 }
-.divSolo>img{
-    height: 80px;
+.divSolo>div>img{
     
+    align-items: center;
+    transform:scale(0.40);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 39%;
+}
+.divSolo>div{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    padding-bottom: -30%;
 }
 footer{
     background-color: #393a3b;
@@ -238,6 +259,7 @@ footer>h3{
     color: #fff;
 }
 footer>ul{
+    display: flex;
     list-style: none;
     height: 100px;
     width: 25%;
@@ -255,7 +277,10 @@ footer>ul>li>img{
     display: block;
     width: 35%;
 }
-.monPacks>
+footer>.monpacks{
+    display: flex;
+}
+
 /* footer>p{
     color: white;
 }
